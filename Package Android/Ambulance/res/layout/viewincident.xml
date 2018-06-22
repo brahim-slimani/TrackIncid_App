@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="esi.siw.map.activities.IncidentActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/ln"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                >
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="30dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="20dp"
+                    android:textStyle="bold"
+                    android:text="Ajout d'incident :"/>
+
+                <EditText
+                    android:id="@+id/nom_victime"
+                    android:layout_width="320dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="18dp"
+                    android:hint="Nom de victime"/>
+
+                <EditText
+                    android:id="@+id/prenom_victime"
+                    android:layout_width="320dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Prenom de victime"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="18dp"
+                        android:layout_marginTop="20dp"
+                        android:textStyle="bold"
+                        android:text="Genre  :  "/>
+
+                    <RadioGroup
+                        android:id="@+id/sexe"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="67dp"
+                        android:layout_marginTop="20dp"
+                        android:orientation="horizontal"
+                        >
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Homme"/>
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Femme"/>
+
+                    </RadioGroup>
+                </LinearLayout>
+
+              <LinearLayout
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:layout_marginTop="10sp"
+                  android:layout_marginRight="27sp">
+
+                  <TextView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textSize="18dp"
+                      android:textStyle="bold"
+                      android:text="L'age de victime :  "/>
+
+                  <EditText
+                      android:id="@+id/age_victime"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:hint="Age @ ans"
+                      android:inputType="number"/>
+              </LinearLayout>
+
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="La nature d'incident :"
+                    android:textStyle="bold"/>
+
+                <Spinner
+                    android:id="@+id/TypeIncidents"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="20dp"
+                    android:spinnerMode="dialog">
+                </Spinner>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="L'état du victime :"
+                    android:textStyle="bold"/>
+
+                <Spinner
+                    android:id="@+id/StateVictime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="20dp"
+                    android:spinnerMode="dialog">
+                </Spinner>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Groupage du victime :"
+                    android:textStyle="bold"/>
+
+                <Spinner
+                    android:id="@+id/GroupageVictime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="20dp"
+                    android:spinnerMode="dialog">
+                </Spinner>
+
+
+
+
+                <Button
+                    android:id="@+id/btn_service"
+                    style="@style/Widget.AppCompat.Button.Colored"
+                    android:layout_width="200dp"
+                    android:layout_height="60dp"
+                    android:text="ETAPE SUIVANTE"
+                    android:layout_marginTop="15dp"
+
+                    />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+
+</android.support.constraint.ConstraintLayout>

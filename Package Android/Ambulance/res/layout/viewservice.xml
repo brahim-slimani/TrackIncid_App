@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:text="Hopitaux et services :"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="30dp"
+                android:textStyle="bold"
+                android:text="Sélectionnez le service approprié :"/>
+
+            <Spinner
+                android:id="@+id/TypeService"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:spinnerMode="dialog"
+                >
+
+            </Spinner>
+
+            <Button
+                android:id="@+id/btn_hopital"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="250dp"
+                android:layout_height="60dp"
+                android:text="HOPITAUX DISPONIBLES"
+                android:layout_marginTop="60dp"
+                />
+
+
+            <Button
+                android:id="@+id/btn_locate"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="250dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="8dp"
+                android:text="LOCALISATION"
+                />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

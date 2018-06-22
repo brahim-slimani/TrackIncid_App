@@ -1,0 +1,96 @@
+{
+  "data": [
+    {
+      "id": 2,
+      "hopital": [
+        {
+          "id": 3,
+          "type": "CHU",
+          "designation": "Mohamed Debaghine",
+          "adresse": "cite 687 logement Bloc 26, porte 236",
+          "wilaya": "Adrar",
+          "tel": "0557399027",
+          "email": "rcherire22@gmail.com",
+          "latitude": "35.182473",
+          "longitude": "-0.637888"
+        }
+      ],
+      "service": [
+        {
+          "id": 1,
+          "designation": "Neurologie"
+        }
+      ],
+      "lits": 23
+    },
+    {
+      "id": 4,
+      "hopital": [
+        {
+          "id": 4,
+          "type": "CHU",
+          "designation": "Moustafa bacha",
+          "adresse": "Alger Bni messous",
+          "wilaya": "Alger",
+          "tel": "21215121212",
+          "email": "n@gmail.com",
+          "latitude": "35.182473",
+          "longitude": "-0.637888"
+        }
+      ],
+      "service": [
+        {
+          "id": 2,
+          "designation": "Cardiologie"
+        }
+      ],
+      "lits": 6
+    },
+    {
+      "id": 5,
+      "hopital": [
+        {
+          "id": 5,
+          "type": "CHU",
+          "designation": "Hassani Abdelkader",
+          "adresse": "Sidi belabbes rue 4 cit\u00e9 300 logts",
+          "wilaya": "Sidi Bel Abb\u00e8s",
+          "tel": "021 56 78 98",
+          "email": "b.slimani@esi-sba.dz",
+          "latitude": "35.182473",
+          "longitude": "-0.637888"
+        }
+      ],
+      "service": [
+        {
+          "id": 1,
+          "designation": "Neurologie"
+        }
+      ],
+      "lits": 12
+    },
+    {
+      "id": 6,
+      "hopital": [
+        {
+          "id": 4,
+          "type": "CHU",
+          "designation": "Moustafa bacha",
+          "adresse": "Alger Bni messous",
+          "wilaya": "Alger",
+          "tel": "21215121212",
+          "email": "n@gmail.com",
+          "latitude": "35.182473",
+          "longitude": "-0.637888"
+        }
+      ],
+      "service": [
+        {
+          "id": 3,
+          "designation": "Tromatologie"
+        }
+      ],
+      "lits": 12
+    }
+  ]
+}
